@@ -27,7 +27,7 @@ async function generateV2Pools(pools: Pool[]) {
       `);
     });
 
-    throw new Error('Some pools where not properly generated');
+    throw new Error('Some v2 pools where not properly generated');
   }
 
   return generatedPools.map((m: any) => m.value);
@@ -47,6 +47,7 @@ async function generateV3Pools(pools: Pool[]) {
   if (failedPools.length > 0) {
     failedPools.forEach((failedPool: any) => {
       const error = JSON.parse(failedPool.reason.message);
+      console.log(error.pool);
       console.log(`
         Could not generate pool for:
         - pool: ${error.pool.name}
@@ -56,7 +57,7 @@ async function generateV3Pools(pools: Pool[]) {
       `);
     });
 
-    throw new Error('Some pools where not properly generated');
+    throw new Error('Some v3 pools where not properly generated');
   }
 
   return generatedPools.map((m: any) => m.value);

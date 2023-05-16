@@ -2,7 +2,7 @@
 
 # Aave Address Book :book:
 
-This repository contains an up-to-date registry of all addresses of the Aave ecosystem's smart contracts, for its usage in Solidity codebases.
+This repository contains an up-to-date registry of all addresses of the Aave ecosystem's smart contracts, for its usage in Solidity codebases. To update the dist and publish, run `npm run ci:publish`, which runs `build` and then `publish`.
 
 The goal is for Solidity developers to have the most integrated environment possible when they want to develop on top of Aave, by just importing a package with all the necessary addresses to interact with.
 

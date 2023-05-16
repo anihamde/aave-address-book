@@ -1,6 +1,6 @@
 {
-  "name": "@bgd-labs/aave-address-book",
-  "version": "1.23.1",
+  "name": "@anirudhtx/aave-address-book",
+  "version": "1.0.1",
   "description": "This repository contains an up-to-date registry of all addresses of the Aave ecosystem's smart contracts, for its usage in Solidity codebases.",
   "directories": {
     "lib": "lib"
@@ -22,9 +22,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bgd-labs/aave-address-book/issues"
+    "url": "https://github.com/anihamde/aave-address-book/issues"
   },
-  "homepage": "https://github.com/bgd-labs/aave-address-book#readme",
+  "homepage": "https://github.com/anihamde/aave-address-book#readme",
   "devDependencies": {
     "@types/node": "^18.11.18",
     "@types/prettier": "^2.7.2",
